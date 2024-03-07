@@ -1,0 +1,26 @@
+[
+    {
+        "firstName": "Aniket",
+        "lastName": "Mandle",
+        "email": "aniket.mandle2@gmail.com",
+        "phoneNumber": 8421522975,
+        "address": "Pune",
+        "id": "0"
+    },
+    {
+        "firstName": "Jon",
+        "lastName": "Lewis",
+        "email": "jon.lewis@gmail.com",
+        "phoneNumber": 3214567895,
+        "address": "Pune",
+        "id": "0"
+    },
+    {
+        "firstName": "Tom",
+        "lastName": "Hartley",
+        "email": "tom.hartley@yahoo.com",
+        "phoneNumber": 3214567614,
+        "address": "Delhi",
+        "id": "0"
+    }
+]

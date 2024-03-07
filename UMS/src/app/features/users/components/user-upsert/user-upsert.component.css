@@ -1,0 +1,17 @@
+.requiredField {
+  color: red;
+  font-size: 14px;
+  text-align: left;
+}
+
+.form-group {
+  span {
+    color: red;
+  }
+
+  label {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0px !important;
+  }
+}

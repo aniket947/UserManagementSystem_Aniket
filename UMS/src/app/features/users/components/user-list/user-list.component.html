@@ -1,0 +1,37 @@
+<div class="text-right">
+    <button (click)="addUser()" type="submit" class="btn btn-success">Add User</button>
+</div>
+
+<div class="table-container">
+    <div class="col-md-12">
+        <div class="tableStyle tableStyleScroll table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Address</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let user of userList">
+                        <td class="whiteSpace">{{user.firstName}}</td>
+                        <td class="whiteSpace">{{user.lastName}}</td>
+                        <td class="whiteSpace">{{user.address}}</td>
+                        <td class="whiteSpace">{{user.email}}</td>
+                        <td class="whiteSpace">{{user.phoneNumber}}</td>
+                        <td class="whiteSpace">
+                            <ul class="actionIcon">
+                                <li (click)="editUser(user)"><i class="bi bi-pencil" title="Edit"></i></li>
+                                <li (click)="deleteUser(user.id)"><i class="bi bi-trash" title="Delete"></i></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
